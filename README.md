@@ -6,5 +6,7 @@ This is a Task Management Application with Dropdown functionality
 ![Landing page (Home page)](https://i.ibb.co/9r98GGT/Screenshot-5882.png)
 
 ## How to run the Project
-* $ npm i node_modules
+* $ git clone
+* $ cd Task-Management-App-with-Drag-and-Drop
+* $ npm install
 * $ npm run dev
