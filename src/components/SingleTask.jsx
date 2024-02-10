@@ -14,7 +14,7 @@ const SingleTask = ({task, tasks, setTasks}) =>{
 
     const handleRemove =(id)=>{
 
-      const fTasks = tasks ? tasks.filter(t => t.id !== id) : [];
+      const fTasks = tasks.filter(t => t.id !== id);
       localStorage.setItem("tasks",JSON.stringify(fTasks));
       setTasks(fTasks);
       toast("Task removed")
